@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-function-name",
+  "version": "0.0.0",
+  "description": "An eslint rule to enforce methods or functions begin with a verb.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legend80s/eslint-plugin-function-name.git"
+  },
+  "keywords": [
+    "eslint",
+    "rules",
+    "method",
+    "function",
+    "name",
+    "begin",
+    "verb"
+  ],
+  "author": "legend80s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legend80s/eslint-plugin-function-name/issues"
+  },
+  "tnpm": {
+    "mode": "yarn",
+    "lockfile": "enable"
+  },
+  "homepage": "https://github.com/legend80s/eslint-plugin-function-name#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
