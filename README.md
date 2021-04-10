@@ -1,19 +1,21 @@
 # eslint-plugin-function-name
 
-An eslint plugin to enforce method or function name begin with a verb.
+> An eslint plugin to enforce method or function name stick to the conventions.
+
+For example a good function name should begin with a verb.
 
 Bad:
 
 ```js
 function cat(fish) {}
-function dog() {}
+function dog(distance) {}
 ```
 
 Good:
 
 ```js
 function feedCat(fish) {}
-function walkDog() {}
+function walkDog(distance) {}
 ```
 
 ## Installation
