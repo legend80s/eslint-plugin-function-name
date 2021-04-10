@@ -1,5 +1,21 @@
 # eslint-plugin-function-name
 
+<p>
+  <a href="https://www.npmjs.com/package/eslint-plugin-function-name" target="_blank">
+    <img src="https://img.shields.io/npm/v/eslint-plugin-function-name.svg" alt="npm version" />
+  </a>
+
+  <a href="https://www.npmjs.com/package/eslint-plugin-function-name">
+    <img src="https://img.shields.io/npm/dm/eslint-plugin-function-name.svg" alt="npm downloads" />
+  </a>
+
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+
+  <a href="https://www.npmjs.com/package/git-commit-msg-linter" target="_blank">
+    <img alt="linter by git commit msg linter" src="https://img.shields.io/badge/git-commit%20msg%20linter-blue" />
+  </a>
+</p>
+
 > An eslint plugin to enforce method or function name stick to the conventions.
 
 For example a good function name should begin with a verb.
