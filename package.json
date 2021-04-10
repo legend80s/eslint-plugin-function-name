@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-function-name",
   "version": "0.0.0",
-  "description": "An eslint rule to enforce methods or functions begin with a verb.",
+  "description": "An eslint plugin to enforce methods or functions begin with a verb.",
   "main": "index.js",
   "scripts": {
     "test": "npm test"
