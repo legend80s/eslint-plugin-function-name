@@ -18,36 +18,19 @@
 
 > An eslint plugin to enforce method or function name stick to the conventions.
 
-For example a good function name should begin with a verb.
-
-Bad:
-
-```js
-function cat(fish) {}
-function dog(distance) {}
-```
-
-Good:
-
-```js
-function feedCat(fish) {}
-function walkDog(distance) {}
-```
-
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
-$ npm i eslint --save-dev
+```sh
+npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-function-name`:
 
+```sh
+npm install eslint-plugin-function-name --save-dev
 ```
-$ npm install eslint-plugin-function-name --save-dev
-```
-
 
 ## Usage
 
@@ -55,20 +38,12 @@ Add `function-name` to the plugins section of your `.eslintrc` configuration fil
 
 ```json
 {
-    "plugins": [
-        "function-name"
-    ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "function-name/starts-with-verb": "error"
-    }
+  "plugins": [
+    "function-name"
+  ],
+  "rules": {
+    "function-name/starts-with-verb": "error"
+  }
 }
 ```
 
@@ -76,7 +51,25 @@ Then configure the rules you want to use under the rules section.
 
 ### function-name/starts-with-verb
 
-Function is always do somethings, so it should start with a verb and to avoid confusion with variables.
+Function is always do something, so it should start with a verb and to avoid confusion with variables.
+
+👎 Examples of **incorrect** code for this rule:
+
+```js
+// "@ali/paytm/function-name-starts-with-verb": ["error"]
+
+function cat(fish) {}
+function dog(distance) {}
+```
+
+👍 Examples of **correct** code for this rule:
+
+```js
+// "@ali/paytm/function-name-starts-with-verb": ["error"]
+
+function feedCat(fish) {}
+function walkDog(distance) {}
+```
 
 #### options
 
@@ -87,25 +80,33 @@ interface IOptions {
 }
 ```
 
-##### example
+.eslintrc.js
 
 ```javascript
 {
-    "rules": {
-        "function-name/starts-with-verb": ["error", {
-          "whitelist": ["success"],
-          "blacklist": ["init"]
-        }]
-    }
+  "rules": {
+    "function-name/starts-with-verb": ["error", {
+      "whitelist": ["success"],
+      "blacklist": ["init"]
+    }]
+  }
 }
 ```
 
-code:
+👎 Examples of **incorrect** code for this rule:
 
 ```js
+// ..."blacklist": ["init"]...
 const foo = {
-  success() {}, // valid
-  init() {}, // invalid
+  init() {},
 }
 ```
 
+👍 Examples of **correct** code for this rule:
+
+```js
+// ..."whitelist": ["success"]...
+const foo = {
+  success() {},
+}
+```
