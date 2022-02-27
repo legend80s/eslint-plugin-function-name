@@ -29,6 +29,8 @@ ruleTester.run("starts-with-verb", rule, {
         initialize() {},
         refresh() {},
         update() {},
+        uglify() {},
+        enqueue() {},
       }`,
     },
 
