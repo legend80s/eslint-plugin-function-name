@@ -16,6 +16,11 @@
   "author": "legend80s",
   "main": "lib/index.js",
   "scripts": {
+    "pub:patch": "npm version patch",
+    "pub:minor": "npm version minor",
+    "pub:major": "npm version major",
+    "preversion": "npm test",
+    "postversion": "npm publish && git push && git push --tags",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
