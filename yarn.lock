@@ -1320,10 +1320,10 @@ v8-compile-cache@^2.0.3:
   resolved "https://registry.npm.alibaba-inc.com/v8-compile-cache/download/v8-compile-cache-2.3.0.tgz#2de19618c66dc247dcfb6f99338035d8245a2cee"
   integrity sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=
 
-verb-corpus@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.npm.alibaba-inc.com/verb-corpus/download/verb-corpus-1.2.0.tgz#2b3736aa3d10bce2a21716fe67506f409849d4e9"
-  integrity sha1-Kzc2qj0QvOKiFxb+Z1BvQJhJ1Ok=
+verb-corpus@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/verb-corpus/-/verb-corpus-3.1.1.tgz#cc9dc615b9e82d53408318520086bd73a437a647"
+  integrity sha512-DJE6CBOTsWuxrLJyD5GgnLq96D01qGulr3UtN2FBXvVojvD8g4g2Ij121VgPbw4b7lE9fBxlaqsUcRK+yRaDjA==
 
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
