@@ -16,7 +16,7 @@
   </a>
 </p>
 
-> An eslint plugin to enforce method or function name stick to the conventions.
+> An eslint plugin to enforce method or function name conforms to conventions.
 
 ## Installation
 
