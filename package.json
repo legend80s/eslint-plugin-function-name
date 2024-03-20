@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-function-name",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "An eslint plugin to enforce method or function name stick to the conventions.",
   "keywords": [
     "eslint",
