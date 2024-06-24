@@ -56,8 +56,6 @@ Function is always do something, so it should start with a verb and to avoid con
 👎 Examples of **incorrect** code for this rule:
 
 ```js
-// "@ali/paytm/function-name-starts-with-verb": ["error"]
-
 function cat(fish) {}
 function dog(distance) {}
 ```
@@ -65,8 +63,6 @@ function dog(distance) {}
 👍 Examples of **correct** code for this rule:
 
 ```js
-// "@ali/paytm/function-name-starts-with-verb": ["error"]
-
 function feedCat(fish) {}
 function walkDog(distance) {}
 ```
