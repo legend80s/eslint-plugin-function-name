@@ -109,6 +109,4 @@ const foo = {
 
 ## Develop
 
-### npm
-
-yarn → bun
+- Use [Bun](https://bun.sh/) to manage everything for example installing.

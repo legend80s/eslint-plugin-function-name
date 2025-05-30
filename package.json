@@ -44,8 +44,5 @@
   "tnpm": {
     "mode": "yarn",
     "lockfile": "enable"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   }
 }
